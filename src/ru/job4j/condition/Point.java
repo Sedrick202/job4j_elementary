@@ -6,7 +6,7 @@ public class Point {
         double rslTWO = (y2 - y1);
         double rslThree = Math.pow(rslONE, 2);
         double rslFour = Math.pow(rslTWO, 2);
-        double rslFive = rslThree - rslFour;
+        double rslFive = rslThree + rslFour;
         double rslSix = Math.sqrt(rslFive);
         return rslSix;
     }
