@@ -3,7 +3,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ConverterTest {
-
+//update with test 0
     @Test
     public void whenConvert140RblThen1Euro() {
         int firstPoint = 140;
