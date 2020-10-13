@@ -15,7 +15,7 @@ public class Converter {
         int euro = Converter.rubleToEuro(140);
         int dollar = Converter.rubleToDollar(80);
         System.out.println("140 rubles are " + euro + " euro.");
-        System.out.println("70 rubles are " + dollar + " dollar.");
+        System.out.println("80 rubles are " + dollar + " dollar.");
         int firstPoint = 140;
         int expectedOne = 1;
         int out = Converter.rubleToEuro(firstPoint);
@@ -25,7 +25,7 @@ public class Converter {
         int expectedTwo = 1;
         int outTwo = Converter.rubleToDollar(secoundPoint);
         boolean passedTwo = expectedTwo == outTwo;
-        System.out.println("140 rubles are 1. Test result : " + passedTwo);
+        System.out.println("80 rubles are 1. Test result : " + passedTwo);
     }
 }
 
