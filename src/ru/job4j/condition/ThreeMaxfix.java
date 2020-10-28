@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class ThreeMaxfix {
     public static int max(int first, int second, int third) {
-        int result = third;
+        int result = third; //fix
         if (first >= second && first >= third) {
             result = first;
         }
