@@ -1,4 +1,4 @@
-package ru.job4j.loop;
+package ru.job4j.loop; //fix
 
 public class CheckPrimeNumber {
     public static boolean check(int number) {
@@ -13,11 +13,9 @@ public class CheckPrimeNumber {
         }
         return prime;
     }
-
-    public static void main(String[] args) {
-        System.out.println(check(5));
-    }
 }
+
+
 
 
 
